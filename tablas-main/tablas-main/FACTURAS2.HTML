@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inventario de Personal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            border: 1px solid black;
+            padding: 10px;
+        }
+        .header {
+            background-color: green;
+            color: white;
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+            padding: 10px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+        .section-title {
+            background-color: #f4e1b7;
+            font-weight: bold;
+        }
+        .green-title {
+            background-color: #d7f4c5;
+            font-weight: bold;
+        }
+        input[type="text"], input[type="number"] {
+            width: 100%;
+            border: none;
+            outline: none;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="header">Machote de Inventario de Personal</div>
+
+    <table>
+        <tr class="green-title">
+            <td colspan="4">Inventario de Personal</td>
+        </tr>
+        <tr>
+            <td>Nombre:</td>
+            <td colspan="3"><input type="text"></td>
+        </tr>
+        <tr>
+            <td>Dirección:</td>
+            <td colspan="3"><input type="text"></td>
+        </tr>
+        <tr>
+            <td>Teléfono:</td>
+            <td><input type="text"></td>
+            <td>Estado Civil:</td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>Compañía de Seguros:</td>
+            <td colspan="3"><input type="text"></td>
+        </tr>
+
+        <tr class="green-title">
+            <td colspan="4">Estado General de Salud</td>
+        </tr>
+        <tr>
+            <td>Hepatitis <input type="checkbox"></td>
+            <td>Gastritis <input type="checkbox"></td>
+            <td>Asma <input type="checkbox"></td>
+            <td>Otro: <input type="text"></td>
+        </tr>
+        <tr>
+            <td>Anemias <input type="checkbox"></td>
+            <td>Diabetes <input type="checkbox"></td>
+            <td>Alergias <input type="checkbox"></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Hiper. Arterial <input type="checkbox"></td>
+            <td>Hipo. Arterial <input type="checkbox"></td>
+            <td>Epilepsia <input type="checkbox"></td>
+            <td></td>
+        </tr>
+
+        <tr class="section-title">
+            <td colspan="4">Experiencia Laboral</td>
+        </tr>
+        <tr>
+            <td>Empresa:</td>
+            <td colspan="3"><input type="text"></td>
+        </tr>
+        <tr>
+            <td>Nombre del Puesto:</td>
+            <td colspan="3"><input type="text"></td>
+        </tr>
+        <tr>
+            <td>Funciones del Puesto:</td>
+            <td colspan="3"><input type="text"></td>
+        </tr>
+
+        <tr class="section-title">
+            <td colspan="4">Formación Académica</td>
+        </tr>
+        <tr>
+            <td>Escolaridad:</td>
+            <td colspan="3"><input type="text"></td>
+        </tr>
+        <tr>
+            <td>Escuela:</td>
+            <td colspan="3"><input type="text"></td>
+        </tr>
+        <tr>
+            <td>Profesión:</td>
+            <td colspan="3"><input type="text"></td>
+        </tr>
+
+        <tr class="section-title">
+            <td colspan="4">Estudios Adicionales</td>
+        </tr>
+        <tr>
+            <td>Entidad o Escuela:</td>
+            <td colspan="3"><input type="text"></td>
+        </tr>
+        <tr>
+            <td>Título:</td>
+            <td colspan="3"><input type="text"></td>
+        </tr>
+
+        <tr class="section-title">
+            <td colspan="4">Información Adicional</td>
+        </tr>
+        <tr>
+            <td>Puesto:</td>
+            <td colspan="3"><input type="text"></td>
+        </tr>
+        <tr>
+            <td>No. Empleado:</td>
+            <td><input type="text"></td>
+            <td>No. Años en el Puesto:</td>
+            <td><input type="number"></td>
+        </tr>
+        <tr>
+            <td>Puestos Anteriores:</td>
+            <td colspan="3"><input type="text"></td>
+        </tr>
+        <tr>
+            <td>Comentarios:</td>
+            <td colspan="3"><input type="text"></td>
+        </tr>
+    </table>
+</div>
+
+</body>
+</html>
